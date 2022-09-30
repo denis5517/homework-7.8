@@ -1,0 +1,8 @@
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\7. Структуры и введение в ООП\homework-7.8\homework-7.8\homework-7.8\bin\Debug\homework-7.8.exe.config
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\7. Структуры и введение в ООП\homework-7.8\homework-7.8\homework-7.8\bin\Debug\homework-7.8.exe
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\7. Структуры и введение в ООП\homework-7.8\homework-7.8\homework-7.8\bin\Debug\homework-7.8.pdb
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\7. Структуры и введение в ООП\homework-7.8\homework-7.8\homework-7.8\obj\Debug\homework-7.8.csproj.AssemblyReference.cache
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\7. Структуры и введение в ООП\homework-7.8\homework-7.8\homework-7.8\obj\Debug\homework-7.8.csproj.SuggestedBindingRedirects.cache
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\7. Структуры и введение в ООП\homework-7.8\homework-7.8\homework-7.8\obj\Debug\homework-7.8.csproj.CoreCompileInputs.cache
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\7. Структуры и введение в ООП\homework-7.8\homework-7.8\homework-7.8\obj\Debug\homework-7.8.exe
+C:\Users\Любовь\OneDrive\Рабочий стол\проекты\7. Структуры и введение в ООП\homework-7.8\homework-7.8\homework-7.8\obj\Debug\homework-7.8.pdb
