@@ -22,6 +22,7 @@ namespace homework_7._8
             {
                 Console.WriteLine("Введем 1 - вывести данные на экран");
                 Console.WriteLine("Введем 2 - заполнить данные и добавить новую запись в конец файла");
+                Console.WriteLine("Введем 3 - хотите удалить запись");
                 consoleKeyInfo = Console.ReadKey();
                 Console.WriteLine();
 
@@ -32,6 +33,10 @@ namespace homework_7._8
                         break;
 
                     case '2':
+                        Input();
+                        break;
+
+                    case '3':
                         Input();
                         break;
                 }

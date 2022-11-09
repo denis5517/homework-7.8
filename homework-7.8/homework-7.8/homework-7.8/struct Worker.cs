@@ -1,64 +1,62 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
 
 namespace homework_7._8
 {
-    struct Worker
+    struct Employee
     {
-        public Book(string FIO, string PlaceBirth)
-            
+        public string employeeId { get; set; }
+        public string addingTime { get; set; }
+        public string fullName { get; set; }
+        public string age { get; set; }
+        public string height { get; set; }
+        public string dateOfBirth { get; set; }
+        public string placeOfBirth { get; set; }
+
+        public Employee(
+            string employeeId,
+            string addingTime,
+            string fullName,
+            string age,
+            string height,
+            string dateOfBirth,
+            string placeOfBirth)
         {
-            this.id = ID;
-            this.datetime = DateTime.Now;
-            this.fio = FIO;
-            this.age = Age;
-            this.growth = Growth;
-            this.datebirth = DateBirth;
-            this.placebirth = PlaceBirth;
+            this.employeeId = employeeId;
+            this.addingTime = addingTime;
+            this.fullName = fullName;
+            this.age = age;
+            this.height = height;
+            this.dateOfBirth = dateOfBirth;
+            this.placeOfBirth = placeOfBirth;
         }
 
-        public string Print()
+        #region Вывести работника в консоль
+        /// <summary>
+        /// Выводит работника в консоль
+        /// </summary>
+        /// <param name-"employee"></param>
+        
+        public void Print()
         {
-            return string.Format(
-
-                id,
-                datetime,
-                fio,
-                age,
-                growth,
-                datebirth,
-                placebirth;)
-
+            Console.WriteLine($"ID: {this.employeeId}");
+            Console.WriteLine($"Дата добавления: {this.addingTime}");
+            Console.WriteLine($"ФИО: {this.fullName}");
+            Console.WriteLine($"Возраст: {this.age}");
+            Console.WriteLine($"Рост: {this.height}");
+            Console.WriteLine($"Дата рождения: {this.dateOfBirth}");
+            Console.WriteLine($"Место рождения: {this.placeOfBirth}");
         }
+        #endregion
 
-        public int Id { get { return this.id; } set { this.id = value; } }
-        public DateTime DateTime { get { return this.datetime; } set { this.datetime = value; } }
-        public string FIO { get { return this.fio; } set { this.fio = value; } }
-        public int Age { get { return this.age; } set { this.age = value; } }
-        public int Growth { get { return this.growth; } set { this.growth = value; } }
-        public int DateBirth { get { return this.datebirth; } set { this.datebirth = value; } }
-        public string PlaceBirth { get { return this.placebirth; } set { this.placebirth = value; } }
-
-
-
-
-
-
-
-
-
-
-
+   
     }
 
-
-
-
-
-
-      
+       
 }
 
 
