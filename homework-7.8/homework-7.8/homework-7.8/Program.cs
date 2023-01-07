@@ -12,6 +12,17 @@ namespace homework_7._8
         const string file = "file.txt";
         static void Main(string[] args)
         {
+            string path = "file.txt";
+            var repository = new Repository("file.txt");
+            rep.Load();
+            rep.PrintDbToConsole();
+            Console.WriteLine(rep.Count);
+            Console.ReadKey();
+
+        }
+       
+        static void Main(string[] args)
+        {
             Menu();
         }
 
@@ -47,6 +58,7 @@ namespace homework_7._8
 
         static void Input()
         {
+            var repository = new Repository("file.txt");
             StringBuilder stringBuilder = new StringBuilder();
             int id = 1;
 
