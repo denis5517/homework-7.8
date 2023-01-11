@@ -13,19 +13,16 @@ namespace homework_7._8
         static void Main(string[] args)
         {
             string path = "file.txt";
-            var repository = new Repository("file.txt");
-            rep.Load();
-            rep.PrintDbToConsole();
-            Console.WriteLine(rep.Count);
+            repository var = new Repository(path);
+            var.Load();
+            var.PrintDbToConsole();
+            Console.WriteLine(var.Count);
+
             Console.ReadKey();
 
-        }
-       
-        static void Main(string[] args)
-        {
             Menu();
         }
-
+       
         static void Menu()
         {
             ConsoleKeyInfo consoleKeyInfo;
