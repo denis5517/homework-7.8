@@ -13,16 +13,18 @@ namespace homework_7._8
         static void Main(string[] args)
         {
             string path = "file.txt";
-            repository var = new Repository(path);
-            var.Load();
-            var.PrintDbToConsole();
-            Console.WriteLine(var.Count);
+            Console.WriteLine("Выберите путь для хранения");
+            path = Console.ReadLine();
+            Repository var = new Repository(path);
+            
 
-            Console.ReadKey();
+
+
 
             Menu();
         }
-       
+
+
         static void Menu()
         {
             ConsoleKeyInfo consoleKeyInfo;
@@ -45,8 +47,9 @@ namespace homework_7._8
                         break;
 
                     case '3':
-                        Input();
+                        Delete();
                         break;
+
                 }
             }
 
