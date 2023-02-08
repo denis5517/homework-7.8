@@ -17,13 +17,8 @@ namespace homework_7._8
             path = Console.ReadLine();
             Repository var = new Repository(path);
             
-
-
-
-
             Menu();
         }
-
 
         static void Menu()
         {
@@ -113,5 +108,18 @@ namespace homework_7._8
                 }
             }
         }
+
+        static void Delete(int id)
+        {
+            for (int i = 0; i < file.Length; i++)
+            {
+                File file = File.txt[i];
+                if (file.Id == id)
+                {
+                    File[i] = new File();
+                }
+            }
+        }
     }
+
 }
